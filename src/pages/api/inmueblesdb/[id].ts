@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { conn } from "../../../utils/database";
+import { conn } from "src/utils/database";
 //import { Query } from "pg";
 
 // eslint-disable-next-line import/no-anonymous-default-export
