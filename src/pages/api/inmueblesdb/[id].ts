@@ -37,6 +37,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         return res.json(result.rows[0]);
 
       } catch (error: any) {
+        
         return res.status(500).json({ message: error.message });
       }
     case "DELETE":
